@@ -2,17 +2,17 @@ document.addEventListener("DOMContentLoaded", function() {
   setInterval(() => {getAge()}, 100);
   setTimeout(function(){
 	  document.getElementById("main").style.opacity = 1;
-  }, 1000);
-  setTimeout(typeWriter, 2000);
+  }, 20);
+  setTimeout(typeWriter, 1000);
   setTimeout(function(){
 	  document.getElementById("appear").style.opacity = 1;
-  }, 4000);
+  }, 3000);
 });
 
 
 
 var i = 0,
-  txt = 'python blurr.py',
+  txt = 'python projects.py',
   speed = 50;
 
 function typeWriter() {
