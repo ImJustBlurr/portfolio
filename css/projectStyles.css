@@ -120,6 +120,11 @@ i {
 	color: black;
 }
 
+.language {
+	color: pink;
+	text-decoration: underline;
+}
+
 /* Style the footer */
 .footer {
   background-color: black;
